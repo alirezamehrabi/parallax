@@ -15,7 +15,7 @@ export function ParallaxLayer({ speed, style, children }) {
     <div
       style={{
         transform: `translateY(${offsetY * speed}px)`,
-        ...style, // اضافه کردن استایل‌های سفارشی
+        ...style, // add custom styles
       }}
     >
       {children}

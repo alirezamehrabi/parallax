@@ -9,7 +9,7 @@ export default function ParallaxPage() {
       <div
         style={{ height: "100vh", position: "relative", overflow: "hidden" }}
       >
-        {/* لایه پس‌زمینه */}
+        {/* add bg */}
         <ParallaxLayer
           speed={-0.3}
           style={{
@@ -23,7 +23,7 @@ export default function ParallaxPage() {
           }}
         />
 
-        {/* لایه مثلث‌ها */}
+        {/* triangles layers */}
         <ParallaxLayer
           speed={0.5}
           style={{
@@ -84,7 +84,7 @@ export default function ParallaxPage() {
           />
         </ParallaxLayer>
 
-        {/* محتوای اصلی */}
+        {/* main content */}
         <ParallaxLayer
           speed={0}
           style={{
@@ -96,7 +96,7 @@ export default function ParallaxPage() {
         >
           <h1>Scroll Down</h1>
           <p>This is the main content</p>
-          <div style={{ height: "200vh" }}></div> {/* ارتفاع برای اسکرول */}
+          <div style={{ height: "200vh" }}></div> {/* height for scroll */}
         </ParallaxLayer>
         <ParallaxLayer
           speed={0.7}
